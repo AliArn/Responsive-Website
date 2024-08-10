@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section id="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>EARTH</h1></div>
+
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Service</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+               
+            </nav>
+
+            <div class="header-content">
+                <h1>About Us</h1>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="about" class="container">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>
+                I made it so it is super easy to update and so that it flows perfectly 
+                with my tutorials. Lots of love and hundreds of hours went into making
+                it. I hope you love it as much as i do. I wish you best of luck.
+            </p>
+        </div>
+
+        <div class="about-img">
+            <img src="./img1/img/about.png" alt="">
+        </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function () {
+            navLinks.classList.toggle('active')
+        })
+    </script>
+
+    </html>
+</body>
